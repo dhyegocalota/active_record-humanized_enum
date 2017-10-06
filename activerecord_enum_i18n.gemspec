@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary     = 'Easily translate your ActiveRecord\'s enums.'
   spec.description = spec.summary
-  spec.homepage    = 'http://github.com/dhyegofernando/activerecord-enum-i18n'
+  spec.homepage    = 'http://github.com/dhyegofernando/activerecord_enum_i18n'
   spec.license     = 'MIT'
 
   spec.files       = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

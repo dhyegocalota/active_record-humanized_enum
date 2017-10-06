@@ -45,5 +45,8 @@ user.status = :disabled
 puts user.humanized_status # Inativo
 ```
 
+## Related Projects
+- [Integration with ActiveAdmin](http://github.com/dhyegofernando/active_admin-activerecord_enum_i18n)
+
 ## Maintainer
 [Dhyego Fernando](https://github.com/dhyegofernando)
