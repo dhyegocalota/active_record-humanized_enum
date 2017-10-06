@@ -4,7 +4,7 @@ Easily translate your Active Record\'s enums.
 ## Installation
 Include to your Gemfile
 ```ruby
-gem 'activerecord_humanized_enum'
+gem 'activerecord_humanized_enum', require: 'active_record/humanized_enum'
 ```
 
 ## Usage
