@@ -46,7 +46,7 @@ puts user.humanized_status # Inativo
 ```
 
 ## Related Projects
-- [Integration with ActiveAdmin](http://github.com/dhyegofernando/active_admin-activerecord_enum_i18n)
+- [Integration with ActiveAdmin](http://github.com/dhyegofernando/active_admin-activerecord_humanized_enum)
 
 ## Maintainer
 [Dhyego Fernando](https://github.com/dhyegofernando)
