@@ -4,7 +4,7 @@ Easily translate your Active Record\'s enums.
 ## Installation
 Include to your Gemfile
 ```ruby
-gem 'activerecord_humanized_enum', require: 'active_record/humanized_enum'
+gem 'active_record-humanized_enum'
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ puts user.humanized_status # Inativo
 ```
 
 ## Related Projects
-- [Integration with ActiveAdmin](http://github.com/dhyegofernando/active_admin-activerecord_humanized_enum)
+- [Integration with ActiveAdmin](http://github.com/dhyegofernando/active_admin-humanized_enum)
 
 ## Maintainer
 [Dhyego Fernando](https://github.com/dhyegofernando)
