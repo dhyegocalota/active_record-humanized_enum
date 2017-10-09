@@ -1,3 +1,5 @@
+$:.push File.expand_path('../lib', __FILE__)
+
 require './lib/active_record/humanized_enum/version'
 
 Gem::Specification.new do |spec|
