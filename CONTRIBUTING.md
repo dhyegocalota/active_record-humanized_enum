@@ -23,17 +23,17 @@ If you want to request a feature or report a bug, please use the following templ
 
 ## Gem version:
 
-Rescuable version: [Add gem version here]
+Version: [Add gem version here]
 ```
 
 ## Writing code
 
 Once you've made your great commits (include tests, please):
 
-1. [Fork](http://help.github.com/forking/) the [original repository](http://github.com/dhyegofernando/rescuable)
+1. [Fork](http://help.github.com/forking/) the [original repository](http://github.com/dhyegofernando/active_record-humanized_enum)
 2. Create a topic branch - `git checkout -b my_branch`
 3. Push to your branch - `git push origin my_branch`
-4. [Create an Issue](http://github.com/dhyegofernando/rescuable/issues) with a link to your branch
+4. [Create an Issue](http://github.com/dhyegofernando/active_record-humanized_enum/issues) with a link to your branch
 5. That's it!
 
 Please respect the code style using [editorconfig](http://editorconfig.org/) in your text editor.
