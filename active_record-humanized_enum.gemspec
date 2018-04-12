@@ -15,8 +15,8 @@ Gem::Specification.new do |spec|
 
   spec.files       = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
 
-  spec.add_dependency 'railties', '~> 4.0'
-  spec.add_dependency 'activesupport', '~> 4.0'
+  spec.add_dependency 'railties'
+  spec.add_dependency 'activesupport'
   spec.add_dependency 'i18n'
 
   spec.add_development_dependency 'bundler'
