@@ -11,8 +11,8 @@ module ActiveRecord
         "this will generate a %{type} method \"%{method}\", which is already defined " \
         "by %{source}."
 
-      def enum(definitions)
-        super(definitions)
+      def enum(*args, **kwargs)
+        definitions = super(*args, **kwargs)
         humanized_enum(*definitions.keys)
       end
 
