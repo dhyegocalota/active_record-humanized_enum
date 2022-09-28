@@ -35,7 +35,7 @@ pt-BR:
 3. Will be available the following methods:
 ```ruby
 User.humanized_status(:enabled) # Ativo
-User.humanized_status(:disnabled) # Inativo
+User.humanized_status(:disabled) # Inativo
 
 user = User.first
 puts user.status # enabled
