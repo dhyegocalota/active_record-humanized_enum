@@ -5,12 +5,12 @@ require './lib/active_record/humanized_enum/version'
 Gem::Specification.new do |spec|
   spec.name        = 'active_record-humanized_enum'
   spec.version     = ActiveRecord::HumanizedEnum::Version::STRING
-  spec.authors     = ['Dhyego Fernando']
+  spec.authors     = ['Dhyego Calota']
   spec.email       = ['dhyegofernando@gmail.com']
 
   spec.summary     = 'Easily translate your ActiveRecord\'s enums.'
   spec.description = spec.summary
-  spec.homepage    = 'http://github.com/dhyegofernando/active_record-humanized_enum'
+  spec.homepage    = 'http://github.com/dhyegocalota/active_record-humanized_enum'
   spec.license     = 'MIT'
 
   spec.files       = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
